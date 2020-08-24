@@ -1,0 +1,144 @@
+body {
+  /* overflow: hidden; */
+  background: url("../images/bg.png") no-repeat center center/cover #000;
+  height: 100vh;
+}
+/* #casino {
+  border-top: 20px dashed rgb(180, 75, 119);
+  border-bottom: 10px solid #a48e4e;
+  background-color: rgb(240, 150, 150); 
+} */
+
+code {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.7) !important;
+  text-align: left;
+}
+.btn-group-justified {
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+a {
+  color: #ccd500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #a9b119;
+}
+.slotMachine .slot {
+  height: 100px;
+  background-position-x: 55%;
+  background-repeat: no-repeat;
+}
+.slot1 {
+  background-image: url("../images/slot1.png");
+}
+.slot2 {
+  background-image: url("../images/slot2.png");
+}
+
+.slot3 {
+  background-image: url("../images/slot3.png");
+}
+
+.slot4 {
+  background-image: url("../images/slot4.png");
+}
+
+.slot5 {
+  background-image: url("../images/slot5.png");
+}
+
+.slot6 {
+  background-image: url("../images/slot6.png");
+}
+#casino .content:nth-child(1) {
+  text-align: center;
+  background: url("../images/machine.png") no-repeat 50% 80px;
+  background-position-x: calc(50% + 30px);
+  min-height: 580px;
+}
+
+#casino .content > div {
+  padding-top: 165px;
+  width: 300px;
+  margin: 0 auto;
+  transform: translateX(30px);
+}
+
+.machineContainer {
+  padding: 5px 1px 5px 1px;
+  height: 135px;
+}
+
+.slotMachine {
+  width: 36.333333%;
+  border: 5px solid #cf5178;
+  height: 100px;
+  display: inline-block;
+}
+
+#casino .btn-group {
+  margin-top: 150px;
+  transform: translateX(-25px);
+}
+
+#casino .btn-group .btn {
+  border: none;
+  background-color: rgb(209, 79, 119);
+}
+
+#casino .btn-group .btn:hover,
+.btn-group .btn:focus {
+  background-color: rgb(180, 75, 119);
+}
+/* #app {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  } */
+/* .marker {
+    width: 60px;
+    left: 172px;
+    top: -20px;
+    z-index: 2;
+  } */
+/* .button {
+    display: block;
+    width: 250px;
+    margin: 40px auto;
+    cursor: pointer;
+  }
+  .button:hover {
+    opacity: 0.8;
+  } */
+.blur {
+  animation: blur 10s;
+}
+
+@keyframes blur {
+  0% {
+    filter: blur(1.5px);
+  }
+  80% {
+    filter: blur(1.5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
